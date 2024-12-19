@@ -17,20 +17,6 @@ body {
     margin: 0 auto;
 }
 
-h1, h2 {
-    font-family: "Gill Sans", sans-serif;
-    color: #006A4E; /* Green color */
-    margin-bottom: 20px;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
 /* Header */
 header {
     background-color: #006A4E; /* Green color */
@@ -40,12 +26,15 @@ header {
 }
 
 header h1 {
-    font-size: 3rem;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 3.5rem; /* Big size for header */
+    color: white;
     margin-bottom: 10px;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-family: "Georgia", serif;
+    font-size: 1.2rem; /* Medium size for text */
 }
 
 /* Section Styling */
@@ -84,6 +73,7 @@ section#contact {
     color: #006A4E; /* Green color */
     text-decoration: none;
     font-weight: bold;
+    font-size: 1rem; /* Medium size for links */
 }
 
 .project-card a:hover {
@@ -99,6 +89,7 @@ section#contact {
     text-decoration: none;
     font-weight: bold;
     margin-top: 10px;
+    font-size: 1rem; /* Medium size for buttons */
 }
 
 .button:hover {
@@ -114,15 +105,25 @@ footer {
 }
 
 footer p {
-    font-size: 1rem;
+    font-family: "Georgia", serif;
+    font-size: 1rem; /* Medium size for footer text */
 }
 
 /* Link Styling */
 a {
     color: #006A4E; /* Green color */
     text-decoration: none;
+    font-size: 1rem; /* Medium size for links */
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Section Titles */
+h2 {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 2.5rem; /* Big size for section titles */
+    color: #006A4E;
+    margin-bottom: 20px;
 }
