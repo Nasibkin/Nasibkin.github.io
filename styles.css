@@ -8,7 +8,7 @@
 body {
     font-family: "Georgia", serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Light grey background */
     color: #333;
 }
 
@@ -40,24 +40,24 @@ header p {
 /* Section Styling */
 section {
     padding: 50px 0;
-    background-color: #fff;
+    background-color: #fff; /* White background for sections */
     margin-bottom: 30px;
 }
 
 section#about {
-    background-color: #e0f3fc; /* Lighter blue */
+    background-color: #f4f4f4; /* Light grey background for About section */
 }
 
 section#projects {
-    background-color: #e6f5fd; /* Very light blue */
+    background-color: #f4f4f4; /* Light grey background for Projects section */
 }
 
 section#education {
-    background-color: #e0f3fc; /* Lighter blue */
+    background-color: #f4f4f4; /* Light grey background for Education section */
 }
 
 section#contact {
-    background-color: #e6f5fd; /* Very light blue */
+    background-color: #f4f4f4; /* Light grey background for Contact section */
 }
 
 /* Font Size for Sections */
