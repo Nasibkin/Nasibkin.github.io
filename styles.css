@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-    background-color: #afbdc9; /* New blue color */
+    background-color: #838e97; /* New blue color */
     color: white;
     padding: 30px 0;
     text-align: center;
@@ -98,7 +98,7 @@ section#contact {
 .project-card a {
     color: #6CB4EE; /* New blue color */
     text-decoration: none;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 1rem; /* Medium size for links */
 }
 
@@ -114,15 +114,8 @@ section#contact {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 20px; /* Added margin-top for spacing */
     font-size: 1rem; /* Medium size for buttons */
-}
-
-#education .button:first-of-type {
-    margin-bottom: 20px; /* Adds space below the first button */
-}
-
-#education .button:last-of-type {
-    margin-top: 20px; /* Adds space above the second button */
 }
 
 .button:hover {
