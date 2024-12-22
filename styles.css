@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-    background-color: #006A4E; /* Green color */
+    background-color: #1DA1F2; /* Blue color */
     color: white;
     padding: 30px 0;
     text-align: center;
@@ -45,19 +45,19 @@ section {
 }
 
 section#about {
-    background-color: #e8f5e9;
+    background-color: #e0f7fa; /* Lighter blue */
 }
 
 section#projects {
-    background-color: #f1f8e9;
+    background-color: #e1f5fe; /* Light blue */
 }
 
 section#education {
-    background-color: #e8f5e9;
+    background-color: #e0f7fa; /* Lighter blue */
 }
 
 section#contact {
-    background-color: #f1f8e9;
+    background-color: #e1f5fe; /* Light blue */
 }
 
 /* Font Size for Sections */
@@ -96,7 +96,7 @@ section#contact {
 }
 
 .project-card a {
-    color: #006A4E; /* Green color */
+    color: #1DA1F2; /* Blue color */
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem; /* Medium size for links */
@@ -108,7 +108,7 @@ section#contact {
 
 /* Button Styles */
 .button {
-    background-color: #006A4E; /* Green color */
+    background-color: #1DA1F2; /* Blue color */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -119,13 +119,13 @@ section#contact {
 }
 
 .button:hover {
-    background-color: #004d33;
+    background-color: #0099CC; /* Darker blue for hover */
 }
 
 /* Footer */
 footer {
     text-align: center;
-    background-color: #006A4E; /* Green color */
+    background-color: #1DA1F2; /* Blue color */
     color: white;
     padding: 20px;
 }
@@ -137,7 +137,7 @@ footer p {
 
 /* Link Styling */
 a {
-    color: #006A4E; /* Green color */
+    color: #1DA1F2; /* Blue color */
     text-decoration: none;
     font-size: 1rem; /* Medium size for links */
 }
@@ -150,6 +150,6 @@ a:hover {
 h2 {
     font-family: "Gill Sans", sans-serif;
     font-size: 2.5rem; /* Big size for section titles */
-    color: #1DA1F2;
+    color: #1DA1F2; /* Blue color */
     margin-bottom: 20px;
 }
