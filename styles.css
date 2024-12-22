@@ -117,12 +117,10 @@ section#contact {
     font-size: 1rem; /* Medium size for buttons */
 }
 
-/* Add margin-bottom to the first button */
 #education .button:first-of-type {
     margin-bottom: 20px; /* Adds space below the first button */
 }
 
-/* Add margin-top to the second button to create space between them */
 #education .button:last-of-type {
     margin-top: 20px; /* Adds space above the second button */
 }
