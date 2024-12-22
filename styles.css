@@ -60,6 +60,22 @@ section#contact {
     background-color: #f1f8e9;
 }
 
+/* Font Size for Sections */
+#about p {
+    font-size: 1.7rem; /* Adjust the size as needed */
+    line-height: 1.6;  /* Optional: improves readability */
+}
+
+#projects p {
+    font-size: 1.7rem; /* Adjust the size as needed */
+    line-height: 1.6;  /* Optional: improves readability */
+}
+
+#projects .project-card p {
+    font-size: 1.5rem; /* Adjust for description text inside project cards */
+    line-height: 1.5;  /* Optional: improves readability */
+}
+
 /* Project Cards */
 .project-card {
     background-color: #fff;
