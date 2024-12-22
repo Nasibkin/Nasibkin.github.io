@@ -1,3 +1,111 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #afbdc9; /* New blue color */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 3.5rem; /* Big size for header */
+    color: white;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-family: "Georgia", serif;
+    font-size: 1.2rem; /* Medium size for text */
+}
+
+/* Section Styling */
+section {
+    padding: 50px 0;
+    background-color: #fff; /* White background for sections */
+    margin-bottom: 30px;
+}
+
+section#about {
+    background-color: #f4f4f4; /* Light grey background for About section */
+}
+
+section#projects {
+    background-color: #f4f4f4; /* Light grey background for Projects section */
+}
+
+section#education {
+    background-color: #f4f4f4; /* Light grey background for Education section */
+}
+
+section#contact {
+    background-color: #f4f4f4; /* Light grey background for Contact section */
+}
+
+/* Font Size for Sections */
+#about p {
+    font-size: 1.3rem; /* Adjust the size as needed */
+    line-height: 1.6;  /* Optional: improves readability */
+}
+
+#projects p {
+    font-size: 1.3rem; /* Adjust the size as needed */
+    line-height: 1.6;  /* Optional: improves readability */
+}
+
+#projects .project-card p {
+    font-size: 1.1rem; /* Adjust for description text inside project cards */
+    line-height: 1.5;  /* Optional: improves readability */
+}
+
+.education h2 {
+    font-size: 2.5rem; /* Adjust this for the desired size */
+    margin-bottom: 10px;
+}
+
+.education p {
+    font-size: 1.8rem; /* Adjust for a slightly smaller size */
+    margin-bottom: 15px;
+}
+
+/* Project Cards */
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.project-card a {
+    color: #6CB4EE; /* New blue color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem; /* Medium size for links */
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
 /* Button Styles */
 .button {
     background-color: #6CB4EE; /* New blue color */
@@ -21,4 +129,36 @@
 
 .button:hover {
     background-color: #5a99cc; /* Darker blue for hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #6CB4EE; /* New blue color */
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    font-family: "Georgia", serif;
+    font-size: 1rem; /* Medium size for footer text */
+}
+
+/* Link Styling */
+a {
+    color: #6CB4EE; /* New blue color */
+    text-decoration: none;
+    font-size: 1rem; /* Medium size for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section Titles */
+h2 {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 2.5rem; /* Big size for section titles */
+    color: #6CB4EE; /* New blue color */
+    margin-bottom: 20px;
 }
