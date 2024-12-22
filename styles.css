@@ -76,6 +76,16 @@ section#contact {
     line-height: 1.5;  /* Optional: improves readability */
 }
 
+.education h2 {
+    font-size: 2.5rem; /* Adjust this for the desired size */
+    margin-bottom: 10px;
+}
+
+.education p {
+    font-size: 1.8rem; /* Adjust for a slightly smaller size */
+    margin-bottom: 15px;
+}
+
 /* Project Cards */
 .project-card {
     background-color: #fff;
