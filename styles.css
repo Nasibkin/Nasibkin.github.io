@@ -8,7 +8,7 @@
 body {
     font-family: "Georgia", serif;
     line-height: 1.6;
-    background-color: #f4f4f4; /* Light grey background */
+    background-color: #f4f4f4;
     color: #333;
 }
 
@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-    background-color: #838e97; /* New blue color */
+    background-color: #006A4E; /* Green color */
     color: white;
     padding: 30px 0;
     text-align: center;
@@ -40,24 +40,24 @@ header p {
 /* Section Styling */
 section {
     padding: 50px 0;
-    background-color: #fff; /* White background for sections */
+    background-color: #fff;
     margin-bottom: 30px;
 }
 
 section#about {
-    background-color: #f4f4f4; /* Light grey background for About section */
+    background-color: #e8f5e9;
 }
 
 section#projects {
-    background-color: #f4f4f4; /* Light grey background for Projects section */
+    background-color: #f1f8e9;
 }
 
 section#education {
-    background-color: #f4f4f4; /* Light grey background for Education section */
+    background-color: #e8f5e9;
 }
 
 section#contact {
-    background-color: #f4f4f4; /* Light grey background for Contact section */
+    background-color: #f1f8e9;
 }
 
 /* Font Size for Sections */
@@ -96,7 +96,7 @@ section#contact {
 }
 
 .project-card a {
-    color: #6CB4EE; /* New blue color */
+    color: #006A4E; /* Green color */
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem; /* Medium size for links */
@@ -108,24 +108,24 @@ section#contact {
 
 /* Button Styles */
 .button {
-    background-color: #6CB4EE; /* New blue color */
+    background-color: #006A4E; /* Green color */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 20px; /* Added margin-top for spacing */
+    margin-top: 10px;
     font-size: 1rem; /* Medium size for buttons */
 }
 
 .button:hover {
-    background-color: #5a99cc; /* Darker blue for hover */
+    background-color: #004d33;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    background-color: #6CB4EE; /* New blue color */
+    background-color: #006A4E; /* Green color */
     color: white;
     padding: 20px;
 }
@@ -137,7 +137,7 @@ footer p {
 
 /* Link Styling */
 a {
-    color: #6CB4EE; /* New blue color */
+    color: #006A4E; /* Green color */
     text-decoration: none;
     font-size: 1rem; /* Medium size for links */
 }
@@ -150,6 +150,6 @@ a:hover {
 h2 {
     font-family: "Gill Sans", sans-serif;
     font-size: 2.5rem; /* Big size for section titles */
-    color: #6CB4EE; /* New blue color */
+    color: #1DA1F2;
     margin-bottom: 20px;
 }
