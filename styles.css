@@ -72,7 +72,7 @@ section#contact {
 }
 
 #projects .project-card p {
-    font-size: 1.1rem; /* Adjust for description text inside project cards */
+    font-size: 1.3rem; /* Adjust for description text inside project cards */
     line-height: 1.5;  /* Optional: improves readability */
 }
 
