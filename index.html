@@ -3,59 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nasibkin Portfolio</title>
+    <title>Nasiba Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Nasiba Mamatnazar kyzy</h1>
-            <p>Welcome to my DevOps portfolio!</p>
+            <p>Your DevOps Engineer Extraordinaire</p>
         </div>
     </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>DevOps Engineer with hands-on experience in cloud computing, infrastructure automation, and container orchestration. Skilled in using AWS, GCP, Terraform, Ansible, Docker, and Kubernetes to streamline infrastructure and application deployment. Proficient in building CI/CD pipelines using GitLab CI and Jenkins. Adept at managing monitoring and logging tools such as Grafana, Prometheus, and Alertmanager to ensure operational efficiency. Currently interning at O!Bank OJSC, contributing to Kubernetes deployments, automating NGINX configurations, and developing Helm templates. Passionate about driving efficiency and scalability through innovative DevOps practices.</p>
+            <p>DevOps Engineer with hands-on experience in cloud computing, infrastructure automation, and container orchestration. Skilled in using AWS, GCP, Terraform, Ansible, Docker, and Kubernetes to streamline infrastructure and application deployment. Proficient in building CI/CD pipelines using GitLab CI and Jenkins. Adept at managing monitoring and logging tools such as Grafana, Prometheus, and Alertmanager. Passionate about driving efficiency and scalability through innovative DevOps practices.</p>
         </div>
     </section>
 
     <section id="projects">
         <div class="container">
             <h2>Projects</h2>
-            <p>Below are some of the projects I have worked on:</p>
-            <ul>
-                <li class="project-card">
-                    <strong>Automated infrastructure deployment and application management using Terraform, GitLab CI, Docker, Kubernetes, and Argo CD. Implemented GKE cluster creation, VPC and subnet configuration, and a CI/CD pipeline for Terraform. Built Docker images automatically and deployed a three-tier application with Helm on Kubernetes. Automated Prometheus stack deployment for monitoring with Argo CD.</p>
-                    <p><a href="https://www.linkedin.com/in/nasibkin/" target="_blank">Message me on LinkedIn for collaboration details (private project)</a></p>
-                </li>
-                <li class="project-card">
-                    <strong>Full-Stack Kubernetes Deployment with Docker and Cloud Integration</strong>
-                    <p>Implemented full-stack deployment using Kubernetes and Docker, with cloud database setup, auto-scaling, Ingress, and domain management.</p>
-                    <p><a href="https://github.com/Nasibkin/project-k8s" target="_blank">View on GitHub</a></p>
-                </li>
-                <li class="project-card">
-                    <strong>CloudFormation VPC & ALB Setup</strong>
-                    <p>Created a CloudFormation template for VPC with subnets, an Application Load Balancer, AutoScaling, and dynamic instance parameters.</p>
-                    <p><a href="https://github.com/Nasibkin/cloudformation_finalproject" target="_blank">View on GitHub</a></p>
-                </li>
-                <li class="project-card">
-                    <strong>Telegram Attendance Bot with Excel Integration</strong>
-                    <p>Created a Python Telegram bot to track and log student attendance, storing the data in an Excel file. Using "openpyxl", the bot updates the attendance status and saves it in an Excel file.</p>
-                    <p><a href="https://github.com/Nasibkin/attendance_bot" target="_blank">View on GitHub</a></p>
-                </li>
-                <li class="project-card">
-                    <strong>Modular Terraform Infrastructure Setup</strong>
-                    <p>Built modular Terraform infrastructure for scalable networking, autoscaling, and environment deployment with dynamic subnets, ALB, and static website hosting.</p>
-                    <p><a href="https://github.com/Nasibkin/Final_Terraform" target="_blank">View on GitHub</a></p>
-                </li>
-                <li class="project-card">
-                    <strong>Automated Web Scraping for Car Listings</strong>
-                    <p>Developed a Python script to scrape and process car listing data from a marketplace website, including HTML parsing, data extraction, and CSV storage.</p>
-                    <p><a href="https://github.com/Nasibkin/parsing_python" target="_blank">View on GitHub</a></p>
-                </li>
-            </ul>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Infrastructure Automation</h3>
+                    <p>Automated infrastructure deployment with Terraform, GitLab CI, and Kubernetes. Built Docker images, deployed applications, and integrated monitoring with Prometheus.</p>
+                    <a href="https://linkedin.com/in/nasibkin" target="_blank">LinkedIn</a>
+                </div>
+                <div class="project-card">
+                    <h3>Full-Stack Kubernetes</h3>
+                    <p>Implemented full-stack deployment using Kubernetes, Docker, and cloud integration. Features auto-scaling, Ingress, and domain management.</p>
+                    <a href="https://github.com/Nasibkin/project-k8s" target="_blank">GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>CloudFormation Setup</h3>
+                    <p>Created a CloudFormation template for VPC, ALB, AutoScaling, and dynamic instance parameters.</p>
+                    <a href="https://github.com/Nasibkin/cloudformation_finalproject" target="_blank">GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Attendance Bot</h3>
+                    <p>Developed a Python Telegram bot to track and log student attendance, integrating Excel for data storage.</p>
+                    <a href="https://github.com/Nasibkin/attendance_bot" target="_blank">GitHub</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -63,29 +62,21 @@
         <div class="container">
             <h2>Education & Certifications</h2>
             <p>DevOps Bootcamp - Bishkek (2024)</p>
-            <p>To view my certification, please click the link below and request access:</p>
-            <a href="https://drive.google.com/file/d/18ck8n1aDxj6j7XCQBADVLmKTNYbRIwEu/view?usp=sharing" target="_blank" class="button">Request Access to My Certification</a>
-
-            <p>If you'd like to request my CV, please message me on LinkedIn:</p>
-            <a href="https://www.linkedin.com/in/nasibkin/" target="_blank" class="button">Request CV via LinkedIn</a>
+            <a href="https://drive.google.com/file/d/18ck8n1aDxj6j7XCQBADVLmKTNYbRIwEu/view?usp=sharing" target="_blank" class="button">View Certification</a>
+            <a href="https://linkedin.com/in/nasibkin" target="_blank" class="button">Request CV</a>
         </div>
     </section>
 
     <section id="contact">
         <div class="container">
-            <h2>Let's Connect!</h2>
-            <a href="https://www.linkedin.com/in/nasibkin/" target="_blank" class="button">LinkedIn</a>
+            <h2>Contact</h2>
+            <p>Let's connect and collaborate!</p>
+            <a href="https://linkedin.com/in/nasibkin" target="_blank" class="button">LinkedIn</a>
         </div>
     </section>
 
-    <footer>Education & Certifications
-        DevOps Bootcamp - Bishkek (2024)
-        
-        To view my certification, please click the link below and request access v1:
-
-        <div class="container">
-            <p>&copy; 2024 Nasibkin</p>
-        </div>
+    <footer>
+        <p>&copy; 2024 Nasiba Mamatnazar kyzy</p>
     </footer>
 </body>
 </html>

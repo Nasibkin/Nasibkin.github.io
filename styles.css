@@ -6,159 +6,166 @@
 }
 
 body {
-    font-family: "Georgia", serif;
-    line-height: 1.6;
-    background-color: #f4f4f4; /* Light grey background */
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
     color: #333;
+    line-height: 1.6;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 /* Header */
 header {
-    background-color: #afbdc9; /* New blue color */
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: white;
-    padding: 30px 0;
     text-align: center;
+    padding: 50px 20px;
+    border-bottom: 5px solid #5a99cc;
 }
 
 header h1 {
-    font-family: "Gill Sans", sans-serif;
-    font-size: 3.5rem; /* Big size for header */
-    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
 header p {
-    font-family: "Georgia", serif;
-    font-size: 1.2rem; /* Medium size for text */
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
-/* Section Styling */
-section {
-    padding: 50px 0;
-    background-color: #fff; /* White background for sections */
-    margin-bottom: 30px;
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #2575fc;
+    padding: 10px;
 }
 
-section#about {
-    background-color: #f4f4f4; /* Light grey background for About section */
+.navbar li {
+    margin: 0 15px;
 }
 
-section#projects {
-    background-color: #f4f4f4; /* Light grey background for Projects section */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
-section#education {
-    background-color: #f4f4f4; /* Light grey background for Education section */
+.navbar a:hover {
+    color: #ffe600;
 }
 
-section#contact {
-    background-color: #f4f4f4; /* Light grey background for Contact section */
-}
-
-/* Font Size for Sections */
-#about p {
-    font-size: 1.3rem; /* Adjust the size as needed */
-    line-height: 1.6;  /* Optional: improves readability */
-}
-
-#projects p {
-    font-size: 1.3rem; /* Adjust the size as needed */
-    line-height: 1.6;  /* Optional: improves readability */
-}
-
-#projects .project-card p {
-    font-size: 1.1rem; /* Adjust for description text inside project cards */
-    line-height: 1.5;  /* Optional: improves readability */
-}
-
-.education h2 {
-    font-size: 2.5rem; /* Adjust this for the desired size */
-    margin-bottom: 10px;
-}
-
-.education p {
-    font-size: 1.8rem; /* Adjust for a slightly smaller size */
-    margin-bottom: 15px;
-}
-
-/* Project Cards */
-.project-card {
-    background-color: #fff;
-    padding: 20px;
+/* Section Titles */
+h2 {
+    font-size: 2rem;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    color: #6a11cb;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 20px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    color: #6a11cb;
+}
+
+.project-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #666;
 }
 
 .project-card a {
-    color: #6CB4EE; /* New blue color */
+    color: #2575fc;
     text-decoration: none;
-    font-weight: normal;
-    font-size: 1rem; /* Medium size for links */
+    font-weight: bold;
 }
 
 .project-card a:hover {
     text-decoration: underline;
 }
 
-/* Button Styles */
+/* Education Section */
+#education {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#education p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
 .button {
-    background-color: #6CB4EE; /* New blue color */
+    background: #6a11cb;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1rem; /* Medium size for buttons */
-}
-
-/* Add margin-bottom to the first button */
-#education .button:first-of-type {
-    margin-bottom: 20px; /* Adds space below the first button */
-}
-
-/* Add margin-top to the second button to create space between them */
-#education .button:last-of-type {
-    margin-top: 20px; /* Adds space above the second button */
+    transition: background 0.3s;
 }
 
 .button:hover {
-    background-color: #5a99cc; /* Darker blue for hover */
+    background: #2575fc;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 20px;
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    background-color: #6CB4EE; /* New blue color */
+    background-color: #333;
     color: white;
+    text-align: center;
     padding: 20px;
-}
-
-footer p {
-    font-family: "Georgia", serif;
-    font-size: 1rem; /* Medium size for footer text */
-}
-
-/* Link Styling */
-a {
-    color: #6CB4EE; /* New blue color */
-    text-decoration: none;
-    font-size: 1rem; /* Medium size for links */
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Section Titles */
-h2 {
-    font-family: "Gill Sans", sans-serif;
-    font-size: 2.5rem; /* Big size for section titles */
-    color: #6CB4EE; /* New blue color */
-    margin-bottom: 20px;
+    font-size: 0.9rem;
 }
