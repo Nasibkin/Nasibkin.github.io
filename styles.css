@@ -98,7 +98,7 @@ section#contact {
 .project-card a {
     color: #6CB4EE; /* New blue color */
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1rem; /* Medium size for links */
 }
 
